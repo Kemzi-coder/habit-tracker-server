@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "ESNext",
+		"outDir": "dist",
+		"rootDir": "src",
+		"strict": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"],
+	"ts-node": {
+		"esm": true,
+		"experimentalSpecifierResolution": "node"
+	}
+}
